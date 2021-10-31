@@ -1,2 +1,2 @@
 # CourseraTest
-Repository for Coursera html, css &amp; Javascript Cose
+Repository for Coursera html, css &amp and Javascript Course
