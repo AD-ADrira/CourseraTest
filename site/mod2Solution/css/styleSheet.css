@@ -1,0 +1,87 @@
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+}
+h1 {
+  margin-bottom: 15px;text-align: center;
+}
+
+div {
+  /* clear: right;*/
+  background-color: #AAAAAA;
+  margin-right: 1%;
+}
+section{
+  clear: right;
+  padding: 2%;
+}
+
+/* #h21 {
+  background-color: #EE99AA;
+} */
+#h21 {
+  margin-top: 0px;
+  border: 1px solid black;  width: auto;text-align: right;float:right;padding:10px 5px 10px 5px;
+  background-color: #EE99AA;
+}
+#h22 {
+  margin-top: 0px;
+  border: 1px solid black;  width: auto;text-align: right;float:right;padding:10px 5px 10px 5px;
+  background-color: #995566;
+}
+#h23 {
+  margin-top: 0px;
+  border: 1px solid black;  width: auto;text-align: right;float:right;padding:10px 5px 10px 5px;
+  background-color: #9999FF;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid black;
+    /* margin: 15px; */
+    /* padding: 0px 0px 10px 10px; */
+    margin-bottom: 10px;
+  }
+  .col-lg-4 {
+    width: 32%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+    /* margin: 15px; */
+    /*margin: auto; */
+    /* padding: 0px 0px 10px 10px; */
+    margin-bottom: 10px;
+  } 
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    width: 97%;
+  }
+}
+@media  (max-width: 767px) {
+  .col-sd-12 {
+    float: left;
+    border: 1px solid black;
+    /* margin: 15px; */
+    width: 100%;
+    /* padding: 0px 0px 10px 10px; */
+    margin-bottom: 10px;
+  }
+}
+</style>
